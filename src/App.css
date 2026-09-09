@@ -182,3 +182,146 @@
     border-right-color: var(--border);
   }
 }
+.app{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+h1{
+  margin-left:50px;
+}
+.expense-form{
+ background:#222;
+ padding:20px;
+ width:400px;
+ max-width:90%;
+ box-sizing:border-box;
+ margin:0px auto ;
+ border-radius:10px;
+
+
+}
+.expense-form h2{
+  margin-right:10px;
+}
+.expense-form button{
+  margin-left:50px;
+}
+/* .form-content{
+ transform: translateX(-300px);
+} */
+ .expense-form h2,
+ .expense-form label,
+ .expense-form input,
+ .expense-form select,
+ .expense-form button{
+  position: relative;
+  left:-10px;
+ }
+h3{
+  margin:10px 0;
+  margin-top:0px;
+  margin-left:40px;
+  margin-bottom:10px;
+}
+
+.expense-header{
+  display:flex;
+  gap:30px;
+  /* justify-content:space-around; */
+  width:500px;
+  margin:0 auto;
+  margin-bottom:10px;
+  font-size:19px;
+  font-weight:500;
+  /* bold = 700px */
+}
+.expense-header_details{
+  display:flex;
+  gap:10px;
+}
+.expense-header_details span{
+  width:100px;
+}
+.expense-header_details span:first-child{
+  width:150px;
+}
+.expense-header_action{
+  display:flex;
+  gap:10px;
+  margin-left:40px;
+}
+.expense-list{
+  width:600px;
+  /* margin:0 auto; */
+  margin-top:0px;
+  margin-right:50px;
+}
+.expense-name{
+  margin:15px 0;
+}
+
+.expense-category{
+  margin:15px 0;
+}
+
+.expense-item{
+  display:flex;
+  /* justify-content:space-between; */
+    /* justify-content:space-around; */
+    gap:30px;
+  width:500px;
+  margin:0 auto;
+  margin-bottom:10px;
+ }
+
+.expense-info{
+  display:flex;
+  gap:10px;
+}
+.expense-info span{
+  width:100px;
+
+}
+.expense-info span:first-child{
+  width:150px;
+}
+
+.expense-buttons{
+  display:flex;
+  /* justify-content:space-between; */
+  gap:10px;
+}
+
+
+/* (app.jsx mai hai) */
+.factors{
+  display:flex;
+  gap:10px;
+  justify-content:center;
+  margin:10px 0;
+ 
+}
+
+.filter{
+  display:flex;
+  align-items:center;
+  /* ye vertically align krega */
+  /* gap:10px; */
+  justify-content:center;
+    /* justify-content:flex-start; */
+  width:250px;
+  margin:0 auto;
+  gap:5px;
+}
+
+/* .filter label{
+  width:90px;
+} */
+.filter:last-child{
+  margin-left:-35px;
+}
+h2{
+  margin-top:10px;
+  margin-left:20px;
+}

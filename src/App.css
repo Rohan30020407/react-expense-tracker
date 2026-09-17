@@ -255,10 +255,11 @@ h3{
   width:600px;
   /* margin:0 auto; */
   margin-top:0px;
-  margin-right:50px;
+  
 }
 .expense-name{
   margin:15px 0;
+ 
 }
 
 .expense-category{
@@ -273,6 +274,8 @@ h3{
   width:500px;
   margin:0 auto;
   margin-bottom:10px;
+  box-sizing:border-box;
+  align-items:start;
  }
 
 .expense-info{
@@ -319,9 +322,83 @@ h3{
   width:90px;
 } */
 .filter:last-child{
-  margin-left:-35px;
+  /* margin-left:-35px; */
 }
 h2{
   margin-top:10px;
   margin-left:20px;
+}
+
+@media (max-width: 450px){
+  .form-content{
+    width:100%;
+    box-sizing:border-box;
+  }
+  .factors {
+    flex-direction: column;
+    width:90%;
+  }
+   .expense-list{
+    width:90%;
+    overflow-x:hidden;
+    margin-right:0;
+  }
+  .expense-header{
+    width:100%;
+    gap:10px;
+    margin:0;
+  }
+  .expense-header_details span{
+    width:100px;
+  }
+   .expense-header_details span:first-child{
+    width:100px;
+   }
+  .expense-header_action{
+    margin-left:0;
+    display:none;
+  }
+  .expense-buttons{
+    margin-left:18px;
+    flex-basis:100%;
+  }
+  .expense-item{
+    gap:10px;
+    flex-wrap:wrap;
+  }
+  .expense-form input,
+ .expense-form select{
+  width:100%;
+  box-sizing:border-box;
+ }
+ .expense-info span:first-child{
+  width:100px;
+  /* white-space:nowrap; */
+}
+
+    .expense-name,.expense-amount,.expense-category{
+    display:flex;
+    flex-direction:column;
+    gap:2px;
+    align-items:flex-start;
+    margin:0 auto;
+  }
+
+  .filter{
+    width:100%;
+    box-sizing: border-box;
+    margin:0;
+  }
+  .filter:last-child{
+    margin-left:0;
+  }
+ 
+
+ br{
+  display:none;
+ }
+ h1{
+  font-size:32px;
+ }
+ 
 }

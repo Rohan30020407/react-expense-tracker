@@ -75,7 +75,7 @@ const AddExpense = ({onAdd , editingExpense ,onUpdate ,onCancelEdit }) => {
       setError("")
       }}/><br/>
       </div>
-      <div>
+      <div className="expense-amount">
      <label>Amount : </label>
 
      <input  placeholder="Enter Amount"  value={amount} onChange={(e)=>{

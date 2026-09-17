@@ -64,10 +64,19 @@ npm run dev
 ```
 
 Open the local URL provided by Vite in your browser.
+## Project Screenshots
 
-## Project Screenshot
+### Main UI
+![Expense Tracker Main UI](screenshots/main-ui.png)
 
-![Expense Tracker](screenshots/Expense_tracker_ss.png)
+### Search
+![Expense Tracker Search](screenshots/search.png)
+
+### Category & Sort
+![Expense Tracker Category and Sort](screenshots/filter-sort.png)
+
+### Mobile Responsive
+![Expense Tracker Mobile](screenshots/mobile.png)
 
 ## Author
 

@@ -160,7 +160,7 @@ const App = () => {
        <div className="expense-info">
       
         <span>{item.item.name}</span>
-        <span>{item.item.amount}</span>
+        <span>₹{item.item.amount}</span>
         <span>{item.item.category}</span>
        </div>
        <div className="expense-buttons">
@@ -171,7 +171,7 @@ const App = () => {
 </div>
 {/* <h2>Total Expense:{total}</h2>
 (it shows-sum of all expenses and filteredExpenses shows only of filtered items only ) */}
-  <h2>Total Expense : {filteredTotal}</h2> 
+  <h2>Total Expense : ₹{filteredTotal}</h2> 
     </div>
   )
 }
